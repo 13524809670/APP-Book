@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
+	<meta name="format-detection" content="telephone=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="applicable-device" content="mobile">
+	<title>实名认证</title>
+	<link href='css/base.css' type='text/css' rel='stylesheet' />
+	<link href='css/style.css' type='text/css' rel='stylesheet' />
+	<script src='js/jquery-1.9.1.min.js' type="text/javascript"></script>
+	<script src='js/countdown2.js' type="text/javascript"></script>
+	<script src='js/common.js' type="text/javascript"></script>
+</head>
+<body>
+	<div class="smrz_main mt10">
+		<div class="smrz_box b_b fix">
+			<div class="icon">
+				<i class="iconfont">&#xe675;</i>
+			</div>
+			<div class="tit">
+				<span>实名认证 <em class="aRed">已认证<i class="iconfont">&#xe605;</i></em></span>
+			</div>
+			<div class="btn"><a href="javascript:;" class="bgRed b_radius_3">认证</a></div>
+		</div>
+		<div class="smrz_box b_b fix">
+			<div class="icon">
+				<i class="iconfont">&#xe625;</i>
+			</div>
+			<div class="tit">
+				<span>手机认证 <em class="aRed">157****1879</em></span>
+			</div>
+		</div>
+		<div class="smrz_box b_b fix">
+			<div class="icon">
+				<i class="iconfont">&#xe633;</i>
+			</div>
+			<div class="tit">
+				<span>登陆密码 </span>
+			</div>
+			<div class="btn"><a href="javascript:;" class="bgRed b_radius_3 smrz_btn">修改</a></div>
+		</div>
+		<div class="smrz_item smrz_item_2">
+			<form action="">
+				<div class="item_input b_b">
+				 	<span>原密码</span>
+				 	<input type="password" name="pass_1" placeholder="请输入原密码">
+				</div>
+				<div class="item_input b_b">
+				 	<span>新密码</span>
+				 	<input type="password" name="pass_2" placeholder="请输入新密码">
+				</div>
+				<div class="item_input b_b mb10">
+				 	<span>确认密码</span>
+				 	<input type="password" name="pass_3"  placeholder="请再次输入新密码">
+				</div>
+				<div class="err aRed mb10"></div>
+				<div class="btn"><a href="javascript:;" class="bgRed b_radius_3">保存</a></div>
+			</form>
+		</div>
+		<div class="smrz_box b_b fix">
+			<div class="icon">
+				<i class="iconfont">&#xe61d;</i>
+			</div>
+			<div class="tit">
+				<span>邮箱认证 <em class="aRed"></em></span>
+			</div>
+			<div class="btn"><a href="javascript:;" class="bgRed b_radius_3 smrz_btn">认证</a></div>
+		</div>
+		<div class="smrz_item smrz_item_3">
+			<form action="">
+				<div class="item_input b_b">
+				 	<span>邮箱账号</span>
+				 	<input type="text" name="mail"  placeholder="请输入邮箱账号" data-count-mail>
+				</div>
+				<div class="item_input item_mail b_b mb10">
+				 	<span>验证码</span>
+				 	<input type="text" id="yzm" placeholder="请输入验证码">
+				 	<a href="javascript:;" class="aRed getcode">发送验证码<i></i></a>
+				</div>
+				<div class="err aRed mb10" id="err3"></div>
+				<div class="btn"><a href="javascript:;" class="bgRed b_radius_3">保存</a></div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
